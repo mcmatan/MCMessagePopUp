@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A9BEFFB1BCFED2D00B5DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BEFFA1BCFED2D00B5DE9C /* AppDelegate.swift */; };
+		8A9BEFFD1BCFED2D00B5DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BEFFC1BCFED2D00B5DE9C /* ViewController.swift */; };
+		8A9BF0001BCFED2D00B5DE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BEFFE1BCFED2D00B5DE9C /* Main.storyboard */; };
+		8A9BF0021BCFED2D00B5DE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BF0011BCFED2D00B5DE9C /* Assets.xcassets */; };
+		8A9BF0051BCFED2D00B5DE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BF0031BCFED2D00B5DE9C /* LaunchScreen.storyboard */; };
+		8A9BF0101BCFED2D00B5DE9C /* MCMessagePopUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF00F1BCFED2D00B5DE9C /* MCMessagePopUpTests.swift */; };
+		8A9BF01B1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF01A1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift */; };
+		8A9BF02A1BCFED5E00B5DE9C /* MCMessagePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF0291BCFED5E00B5DE9C /* MCMessagePopUp.swift */; settings = {ASSET_TAGS = (); }; };
+		8A9BF02C1BCFEECD00B5DE9C /* MCMessagePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF02B1BCFEECD00B5DE9C /* MCMessagePopUpView.swift */; settings = {ASSET_TAGS = (); }; };
+		8A9BF02F1BD38AF400B5DE9C /* sea-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BF02E1BD38AF400B5DE9C /* sea-7.jpg */; settings = {ASSET_TAGS = (); }; };
+		FC66B40DE2AF6FB25DBA7C66 /* Pods_MCMessagePopUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E205DA00E56D1175F6F6D1 /* Pods_MCMessagePopUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A9BF00C1BCFED2D00B5DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9BEFEF1BCFED2D00B5DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A9BEFF61BCFED2D00B5DE9C;
+			remoteInfo = MCMessagePopUp;
+		};
+		8A9BF0171BCFED2D00B5DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9BEFEF1BCFED2D00B5DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A9BEFF61BCFED2D00B5DE9C;
+			remoteInfo = MCMessagePopUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A9BEFF71BCFED2D00B5DE9C /* MCMessagePopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMessagePopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9BEFFA1BCFED2D00B5DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A9BEFFC1BCFED2D00B5DE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A9BEFFF1BCFED2D00B5DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A9BF0011BCFED2D00B5DE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A9BF0041BCFED2D00B5DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A9BF0061BCFED2D00B5DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9BF00B1BCFED2D00B5DE9C /* MCMessagePopUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMessagePopUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9BF00F1BCFED2D00B5DE9C /* MCMessagePopUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCMessagePopUpTests.swift; sourceTree = "<group>"; };
+		8A9BF0111BCFED2D00B5DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9BF0161BCFED2D00B5DE9C /* MCMessagePopUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMessagePopUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9BF01A1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCMessagePopUpUITests.swift; sourceTree = "<group>"; };
+		8A9BF01C1BCFED2D00B5DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9BF0291BCFED5E00B5DE9C /* MCMessagePopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCMessagePopUp.swift; sourceTree = "<group>"; };
+		8A9BF02B1BCFEECD00B5DE9C /* MCMessagePopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCMessagePopUpView.swift; sourceTree = "<group>"; };
+		8A9BF02E1BD38AF400B5DE9C /* sea-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sea-7.jpg"; sourceTree = "<group>"; };
+		CB1F5999F25CBB50CC614C81 /* Pods-MCMessagePopUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCMessagePopUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCMessagePopUp/Pods-MCMessagePopUp.release.xcconfig"; sourceTree = "<group>"; };
+		D5E205DA00E56D1175F6F6D1 /* Pods_MCMessagePopUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCMessagePopUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8842506C6629211CF9F7515 /* Pods-MCMessagePopUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCMessagePopUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCMessagePopUp/Pods-MCMessagePopUp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A9BEFF41BCFED2D00B5DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC66B40DE2AF6FB25DBA7C66 /* Pods_MCMessagePopUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BF0081BCFED2D00B5DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BF0131BCFED2D00B5DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6365AD202F0BD9B087B6473E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8842506C6629211CF9F7515 /* Pods-MCMessagePopUp.debug.xcconfig */,
+				CB1F5999F25CBB50CC614C81 /* Pods-MCMessagePopUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A9BEFEE1BCFED2D00B5DE9C = {
+			isa = PBXGroup;
+			children = (
+				8A9BF02D1BD38AE800B5DE9C /* Images */,
+				8A9BEFF91BCFED2D00B5DE9C /* MCMessagePopUp */,
+				8A9BF00E1BCFED2D00B5DE9C /* MCMessagePopUpTests */,
+				8A9BF0191BCFED2D00B5DE9C /* MCMessagePopUpUITests */,
+				8A9BEFF81BCFED2D00B5DE9C /* Products */,
+				6365AD202F0BD9B087B6473E /* Pods */,
+				96C3DB902512D2A3129F4F9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A9BEFF81BCFED2D00B5DE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BEFF71BCFED2D00B5DE9C /* MCMessagePopUp.app */,
+				8A9BF00B1BCFED2D00B5DE9C /* MCMessagePopUpTests.xctest */,
+				8A9BF0161BCFED2D00B5DE9C /* MCMessagePopUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A9BEFF91BCFED2D00B5DE9C /* MCMessagePopUp */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BF0281BCFED3900B5DE9C /* MCMessagePopUp */,
+				8A9BEFFA1BCFED2D00B5DE9C /* AppDelegate.swift */,
+				8A9BEFFC1BCFED2D00B5DE9C /* ViewController.swift */,
+				8A9BEFFE1BCFED2D00B5DE9C /* Main.storyboard */,
+				8A9BF0011BCFED2D00B5DE9C /* Assets.xcassets */,
+				8A9BF0031BCFED2D00B5DE9C /* LaunchScreen.storyboard */,
+				8A9BF0061BCFED2D00B5DE9C /* Info.plist */,
+			);
+			path = MCMessagePopUp;
+			sourceTree = "<group>";
+		};
+		8A9BF00E1BCFED2D00B5DE9C /* MCMessagePopUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BF00F1BCFED2D00B5DE9C /* MCMessagePopUpTests.swift */,
+				8A9BF0111BCFED2D00B5DE9C /* Info.plist */,
+			);
+			path = MCMessagePopUpTests;
+			sourceTree = "<group>";
+		};
+		8A9BF0191BCFED2D00B5DE9C /* MCMessagePopUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BF01A1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift */,
+				8A9BF01C1BCFED2D00B5DE9C /* Info.plist */,
+			);
+			path = MCMessagePopUpUITests;
+			sourceTree = "<group>";
+		};
+		8A9BF0281BCFED3900B5DE9C /* MCMessagePopUp */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BF0291BCFED5E00B5DE9C /* MCMessagePopUp.swift */,
+				8A9BF02B1BCFEECD00B5DE9C /* MCMessagePopUpView.swift */,
+			);
+			name = MCMessagePopUp;
+			sourceTree = "<group>";
+		};
+		8A9BF02D1BD38AE800B5DE9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BF02E1BD38AF400B5DE9C /* sea-7.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		96C3DB902512D2A3129F4F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5E205DA00E56D1175F6F6D1 /* Pods_MCMessagePopUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A9BEFF61BCFED2D00B5DE9C /* MCMessagePopUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9BF01F1BCFED2D00B5DE9C /* Build configuration list for PBXNativeTarget "MCMessagePopUp" */;
+			buildPhases = (
+				CC26722E04AAB3B334962150 /* Check Pods Manifest.lock */,
+				8A9BEFF31BCFED2D00B5DE9C /* Sources */,
+				8A9BEFF41BCFED2D00B5DE9C /* Frameworks */,
+				8A9BEFF51BCFED2D00B5DE9C /* Resources */,
+				C9F37EBBE709A869E9873538 /* Embed Pods Frameworks */,
+				C1B110ADBBDE4C501C82036B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCMessagePopUp;
+			productName = MCMessagePopUp;
+			productReference = 8A9BEFF71BCFED2D00B5DE9C /* MCMessagePopUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A9BF00A1BCFED2D00B5DE9C /* MCMessagePopUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9BF0221BCFED2D00B5DE9C /* Build configuration list for PBXNativeTarget "MCMessagePopUpTests" */;
+			buildPhases = (
+				8A9BF0071BCFED2D00B5DE9C /* Sources */,
+				8A9BF0081BCFED2D00B5DE9C /* Frameworks */,
+				8A9BF0091BCFED2D00B5DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A9BF00D1BCFED2D00B5DE9C /* PBXTargetDependency */,
+			);
+			name = MCMessagePopUpTests;
+			productName = MCMessagePopUpTests;
+			productReference = 8A9BF00B1BCFED2D00B5DE9C /* MCMessagePopUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A9BF0151BCFED2D00B5DE9C /* MCMessagePopUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9BF0251BCFED2D00B5DE9C /* Build configuration list for PBXNativeTarget "MCMessagePopUpUITests" */;
+			buildPhases = (
+				8A9BF0121BCFED2D00B5DE9C /* Sources */,
+				8A9BF0131BCFED2D00B5DE9C /* Frameworks */,
+				8A9BF0141BCFED2D00B5DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A9BF0181BCFED2D00B5DE9C /* PBXTargetDependency */,
+			);
+			name = MCMessagePopUpUITests;
+			productName = MCMessagePopUpUITests;
+			productReference = 8A9BF0161BCFED2D00B5DE9C /* MCMessagePopUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A9BEFEF1BCFED2D00B5DE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Matan Cohen";
+				TargetAttributes = {
+					8A9BEFF61BCFED2D00B5DE9C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8A9BF00A1BCFED2D00B5DE9C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8A9BEFF61BCFED2D00B5DE9C;
+					};
+					8A9BF0151BCFED2D00B5DE9C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8A9BEFF61BCFED2D00B5DE9C;
+					};
+				};
+			};
+			buildConfigurationList = 8A9BEFF21BCFED2D00B5DE9C /* Build configuration list for PBXProject "MCMessagePopUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A9BEFEE1BCFED2D00B5DE9C;
+			productRefGroup = 8A9BEFF81BCFED2D00B5DE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A9BEFF61BCFED2D00B5DE9C /* MCMessagePopUp */,
+				8A9BF00A1BCFED2D00B5DE9C /* MCMessagePopUpTests */,
+				8A9BF0151BCFED2D00B5DE9C /* MCMessagePopUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A9BEFF51BCFED2D00B5DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BF0051BCFED2D00B5DE9C /* LaunchScreen.storyboard in Resources */,
+				8A9BF02F1BD38AF400B5DE9C /* sea-7.jpg in Resources */,
+				8A9BF0021BCFED2D00B5DE9C /* Assets.xcassets in Resources */,
+				8A9BF0001BCFED2D00B5DE9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BF0091BCFED2D00B5DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BF0141BCFED2D00B5DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1B110ADBBDE4C501C82036B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCMessagePopUp/Pods-MCMessagePopUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F37EBBE709A869E9873538 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCMessagePopUp/Pods-MCMessagePopUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC26722E04AAB3B334962150 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A9BEFF31BCFED2D00B5DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BF02A1BCFED5E00B5DE9C /* MCMessagePopUp.swift in Sources */,
+				8A9BEFFD1BCFED2D00B5DE9C /* ViewController.swift in Sources */,
+				8A9BEFFB1BCFED2D00B5DE9C /* AppDelegate.swift in Sources */,
+				8A9BF02C1BCFEECD00B5DE9C /* MCMessagePopUpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BF0071BCFED2D00B5DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BF0101BCFED2D00B5DE9C /* MCMessagePopUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BF0121BCFED2D00B5DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BF01B1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A9BF00D1BCFED2D00B5DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A9BEFF61BCFED2D00B5DE9C /* MCMessagePopUp */;
+			targetProxy = 8A9BF00C1BCFED2D00B5DE9C /* PBXContainerItemProxy */;
+		};
+		8A9BF0181BCFED2D00B5DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A9BEFF61BCFED2D00B5DE9C /* MCMessagePopUp */;
+			targetProxy = 8A9BF0171BCFED2D00B5DE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A9BEFFE1BCFED2D00B5DE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A9BEFFF1BCFED2D00B5DE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A9BF0031BCFED2D00B5DE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A9BF0041BCFED2D00B5DE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A9BF01D1BCFED2D00B5DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A9BF01E1BCFED2D00B5DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A9BF0201BCFED2D00B5DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8842506C6629211CF9F7515 /* Pods-MCMessagePopUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCMessagePopUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A9BF0211BCFED2D00B5DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1F5999F25CBB50CC614C81 /* Pods-MCMessagePopUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCMessagePopUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A9BF0231BCFED2D00B5DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCMessagePopUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCMessagePopUp.app/MCMessagePopUp";
+			};
+			name = Debug;
+		};
+		8A9BF0241BCFED2D00B5DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCMessagePopUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCMessagePopUp.app/MCMessagePopUp";
+			};
+			name = Release;
+		};
+		8A9BF0261BCFED2D00B5DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCMessagePopUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCMessagePopUp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A9BF0271BCFED2D00B5DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCMessagePopUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCMessagePopUp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A9BEFF21BCFED2D00B5DE9C /* Build configuration list for PBXProject "MCMessagePopUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9BF01D1BCFED2D00B5DE9C /* Debug */,
+				8A9BF01E1BCFED2D00B5DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9BF01F1BCFED2D00B5DE9C /* Build configuration list for PBXNativeTarget "MCMessagePopUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9BF0201BCFED2D00B5DE9C /* Debug */,
+				8A9BF0211BCFED2D00B5DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9BF0221BCFED2D00B5DE9C /* Build configuration list for PBXNativeTarget "MCMessagePopUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9BF0231BCFED2D00B5DE9C /* Debug */,
+				8A9BF0241BCFED2D00B5DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9BF0251BCFED2D00B5DE9C /* Build configuration list for PBXNativeTarget "MCMessagePopUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9BF0261BCFED2D00B5DE9C /* Debug */,
+				8A9BF0271BCFED2D00B5DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A9BEFEF1BCFED2D00B5DE9C /* Project object */;
+}
