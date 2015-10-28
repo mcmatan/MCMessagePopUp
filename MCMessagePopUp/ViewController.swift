@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
     func show(style : kMessagePopUpStyle) {
-        self.popUpMessage.showMessage(style, message: "some message some message some message some messagesome message some message", title: "title")
+        self.popUpMessage.showMessage(style, message: "some message some message some message some messagesome message some message", title: "title", mainScreen: self.view)
     }
 
     override func didReceiveMemoryWarning() {

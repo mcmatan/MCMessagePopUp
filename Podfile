@@ -6,6 +6,7 @@
 target 'MCMessagePopUp' do
 pod 'SnapKit', '~> 0.15'
 pod 'DynamicColor', '~> 2.0.0'
+pod 'HexColors', '2.3.0'
 end
 
 target 'MCMessagePopUpTests' do

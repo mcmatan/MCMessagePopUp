@@ -7,91 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02141765CCA3861A8BFDE6B4F884FF36 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AEC7245372E5830A34B0257C6D8A6B /* ViewController+SnapKit.swift */; };
-		106A4B5EFC14C0A6D3B71D06437B9C87 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345D5D380A95811C56A8C9432A8BA60 /* ConstraintItem.swift */; };
-		12B433DA66A4626977FA273D5994B5E1 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204D4260023FF79E25F3F36A66DA16A /* HSL.swift */; };
-		18E938F95DB58AF7A4E933D7BD645F0B /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7AB1163B4D4A15C1C44D6C6B3113B8 /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FBB418A25947CEC02EB4D2AAADCF62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		07715155B3856E32C0AEB8AF07ACB4AE /* Pods-MCMessagePopUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1796A20BA092A2CE7129499A433250F7 /* Pods-MCMessagePopUp-dummy.m */; };
+		094E8C800ADB51CCDAB2CBA9D2A879F5 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446B729D038A9198C97CAD7C2DDDD0C /* SnapKit-dummy.m */; };
+		0D6A0F7B4EFB1DB75137FD592B3481A9 /* Pods-MCMessagePopUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9CBBF77727903EBBB7A2C4790DF6F4 /* Pods-MCMessagePopUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B433DA66A4626977FA273D5994B5E1 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B34F489C7E9F9666EE0D7EB2A3BB7 /* HSL.swift */; };
+		18E938F95DB58AF7A4E933D7BD645F0B /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0227C436CF546C3EEACAEDA2CEA879C3 /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D9DDF3B10D7C1E8A07B200D55118C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		2ACA2ABB3C986327E5B1C8D80AC759CC /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80853BA9E9ACCA9F7A6681A119DEAB3 /* Constraint.swift */; };
 		37B3AC1225FDA65F5E8CBEE245490274 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		3C594417C8523468EA43A2270C6E1688 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 245FD1426035057F7F0379B6B6BADDF8 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		465DA8AF88F9376CAED22BA39CBCD8B0 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CBAFE594B16D46EEECB4426313844C /* ConstraintRelation.swift */; };
-		496F0C2B0950F767E96CB7D98689E6A8 /* Pods-MCMessagePopUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9CBBF77727903EBBB7A2C4790DF6F4 /* Pods-MCMessagePopUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A9D3E2EF689A360AFDCB130CA53159B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE371584A50B1AF7B7DDD38B138D872C /* ConstraintMaker.swift */; };
-		6189C27B56D45BAF2ACC39CCBA476195 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DCE6596F76764BD58A7A183BAA0B71 /* Debugging.swift */; };
-		647655495A5F64D5F8802EF03CF1E678 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB9665F5549D1B7CAF1C9D7B1818A /* Constraint.swift */; };
+		4E5B4EEA50BEF0B4D0FE2394D3EB119A /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9AFC861DAF5EF8A090C250AC095BDC /* HexColors.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		596758BBEC68789E6C8928ECE3FC341C /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C58017B683C79C3009C3B70F120F3E1 /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60495B11A11CD5704FEFFD64A69B33EA /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9600FAC0F94D153595ED6D65CA49C /* ConstraintItem.swift */; };
+		64D962B0FA2B1673B1C4630696E97926 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FF392D15030E6E7C3043B72F01EB2 /* ConstraintRelation.swift */; };
 		75F7DB2E8187F52BA188123C65AB1285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		795F91F24DF89BD37FA779B24F8DC88C /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448ACDA8027E20372BF0B39F4585897C /* EdgeInsets.swift */; };
-		9499CEC0AA65D672E6ECC317935159DD /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CAD052D1B527D2754916D8B3A82969 /* SnapKit-dummy.m */; };
-		9728871818A3FD623DAE23E0801BF320 /* Pods-MCMessagePopUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1796A20BA092A2CE7129499A433250F7 /* Pods-MCMessagePopUp-dummy.m */; };
-		A99D4789E113F51EA5C9E926AC6E6685 /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C81D2793E90CA9BD703B9904D1AE7E /* DynamicColor-dummy.m */; };
-		B2ABE8771072ED2C30528F0382647083 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6391FEE8CB8B320661AC2F0000546E /* LayoutConstraint.swift */; };
-		B2BD8E35A1982EE1C846B0A90082CF72 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F92BC513590AFDBE1329183818F0A /* ConstraintDescription.swift */; };
-		C17114E5C984AEBDD593A67B5989FAAB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952C73699BBEA253EC4F65FBFA23713 /* UIColor.swift */; };
-		CA1AC48020794CCAA75677B4209F327B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4351503815D765E6CE9F8788FB24473 /* ConstraintAttributes.swift */; };
-		D637A31F3D91EBA42F7FADF1AC2B6957 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE3C7969DCB93F86CFF2569440947E /* SnapKit.swift */; };
-		E51758E536381220E74CB351BEE1EF3D /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BBD257C89B46329220B7D18179C515 /* View+SnapKit.swift */; };
-		E7381391EB031BA2F8E8175082C543DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		815F5A62725BB6E2B149E3DFE7B7BE58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		85A810AA372BF651C512F9D8FF3355BD /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37516BFAB39FBC44FA80690207BC9C38 /* Debugging.swift */; };
+		8A47226B07A8F55B19D045DB0361A04E /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C34F363A5DEB43400EFD14B71D8D8 /* View+SnapKit.swift */; };
+		8D0209F5996EED9AC01DA9127268A808 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125307AE5853DD958CEA0938F6C9606 /* ConstraintDescription.swift */; };
+		8DCF5C0EE6AC7543935C51AA756864C0 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6314EFD865C7ADB7E9DBDA52B6936D5 /* HexColors-dummy.m */; };
+		9B21AC4FDA2748EF3349AF240FBC352C /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422ACD13380D25196BBC286AE73890ED /* LayoutConstraint.swift */; };
+		A99D4789E113F51EA5C9E926AC6E6685 /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C9FA464F21D7B3B00655825E342C32 /* DynamicColor-dummy.m */; };
+		B768EAA4F040B54F0CC187469BE9DEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		C005921D91F14F219C962A3AEE9173D5 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2AA9B46205ECD9DAAE2DACE643843 /* ConstraintMaker.swift */; };
+		C1640F8C06B9993DF58B8717B586187F /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606BAE9A90ED38163AB7BA503448022C /* ConstraintAttributes.swift */; };
+		C17114E5C984AEBDD593A67B5989FAAB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F1E383768910818B2246BFC1FC9F8 /* UIColor.swift */; };
+		D1E92AEC9F093E10C69F2B89A14F49F5 /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BBA728EE7C71E90F4231374078EC1E /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D2DC6F314DF04FAFD32B82B0271BF8 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A32A821D1C6D1CF7A8F137A00A8777 /* EdgeInsets.swift */; };
+		D650067217B72371FC8693BE21C5786B /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F2253090161C27187A9E9FEA34DE5 /* ViewController+SnapKit.swift */; };
+		E72AB1760239EAD4ADA3809ADEF32156 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA2559A2C14AF6528370C6F6FA615F /* SnapKit.swift */; };
+		F04D10D13D233DE2175C4E430879A62F /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557E7CE872350CF45303D99C1283E6AC /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A24BE25E69AB7FAEAEC408656F5FEFD9 /* PBXContainerItemProxy */ = {
+		5394453D3F051FB29E7FD9B3CEFAC303 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1860587A4358341387B93E4C61C04485;
+			remoteGlobalIDString = 78B4A90D384F1641F2F79511C3D6FB2E;
 			remoteInfo = SnapKit;
 		};
-		B4D781B917C36B3F8CC8CA2F01243D7D /* PBXContainerItemProxy */ = {
+		B7CD442FF4EA8F15A3A4D1D4A2574F45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 08F6A5AF8E89681F880EB03F167AACB7;
 			remoteInfo = DynamicColor;
 		};
+		CA0FD6649EB6A4A5C653B85D1E9AF7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C408D4E183A88B763793C217A66A1950;
+			remoteInfo = HexColors;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C81D2793E90CA9BD703B9904D1AE7E /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
-		076BA00FB387B76830BC0D2A987E12E2 /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
+		0227C436CF546C3EEACAEDA2CEA879C3 /* DynamicColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-umbrella.h"; sourceTree = "<group>"; };
+		0748C77911DCD6F6B0070363E3A584C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BFA465C06CE9DB8F114C6AFE22A0BCC /* Pods-MCMessagePopUp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCMessagePopUp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E1B34F489C7E9F9666EE0D7EB2A3BB7 /* HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = DynamicColor/HSL.swift; sourceTree = "<group>"; };
 		0E9CBBF77727903EBBB7A2C4790DF6F4 /* Pods-MCMessagePopUp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCMessagePopUp-umbrella.h"; sourceTree = "<group>"; };
 		1796A20BA092A2CE7129499A433250F7 /* Pods-MCMessagePopUp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCMessagePopUp-dummy.m"; sourceTree = "<group>"; };
-		1A7AB1163B4D4A15C1C44D6C6B3113B8 /* DynamicColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-umbrella.h"; sourceTree = "<group>"; };
 		1B04691BA6447247EF0E1A31E7611BA5 /* Pods-MCMessagePopUp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCMessagePopUp-resources.sh"; sourceTree = "<group>"; };
-		1E84FF0CF8C0622CCE0AF17F7AAFEC07 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		245FD1426035057F7F0379B6B6BADDF8 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		3204D4260023FF79E25F3F36A66DA16A /* HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = DynamicColor/HSL.swift; sourceTree = "<group>"; };
-		3D9DB9665F5549D1B7CAF1C9D7B1818A /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		2F9DB7408EF506609D881DF5033158FF /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		37516BFAB39FBC44FA80690207BC9C38 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		378AF90F2320F6BE838E932F332B7163 /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
+		39BBA728EE7C71E90F4231374078EC1E /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-umbrella.h"; sourceTree = "<group>"; };
 		3FB69152D0FC7642302A4F4C0B16BF7C /* Pods-MCMessagePopUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCMessagePopUp.release.xcconfig"; sourceTree = "<group>"; };
-		448ACDA8027E20372BF0B39F4585897C /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
-		50AEF08FDC90CADEAC80ABCF786FCFF9 /* DynamicColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicColor.xcconfig; sourceTree = "<group>"; };
-		52B42E5A87EEEA29195B069618A99FD6 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54DCE6596F76764BD58A7A183BAA0B71 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		58EAA9A9ED72DB77D7B1F02CD68E96A7 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8DB81A7E76BD00732F485308E78D53 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		628F92BC513590AFDBE1329183818F0A /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		6345D5D380A95811C56A8C9432A8BA60 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		6715253815A182EA12E6939CA8EF4359 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422ACD13380D25196BBC286AE73890ED /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		4253E02AA932F74A59CE817B0A31C2B0 /* Pods_MCMessagePopUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCMessagePopUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AFB0589F92BF57006D5294E26AAF79 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		4C58017B683C79C3009C3B70F120F3E1 /* HexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = Classes/HexColors.h; sourceTree = "<group>"; };
+		4F0F2253090161C27187A9E9FEA34DE5 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		538A6CEBC683C3EF4A08F785E07756ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557E7CE872350CF45303D99C1283E6AC /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		599A96947EC6A91D01E0BA75BAC8A7D2 /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HexColors.modulemap; sourceTree = "<group>"; };
+		5BE2AA9B46205ECD9DAAE2DACE643843 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		606BAE9A90ED38163AB7BA503448022C /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F9AFC861DAF5EF8A090C250AC095BDC /* HexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = Classes/HexColors.m; sourceTree = "<group>"; };
+		7446B729D038A9198C97CAD7C2DDDD0C /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		7D5BF87BEBFD936AD19FCBD6D84787FF /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		7D6F1E383768910818B2246BFC1FC9F8 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = DynamicColor/UIColor.swift; sourceTree = "<group>"; };
+		82EC5EA6F7F653BCA7FC9800DA238A27 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		8743E541C63D86F301BF26F1C92F7D9F /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B004E72B7CD5AF954ADD42F8FEC462 /* Pods-MCMessagePopUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCMessagePopUp.debug.xcconfig"; sourceTree = "<group>"; };
-		8B64649D13C833E77887A36E27DA3634 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		902BC82E62AD7053B86D975938101C0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94AEC7245372E5830A34B0257C6D8A6B /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		885D018A40A6AE53978EEA6387CC9964 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		8E7C34F363A5DEB43400EFD14B71D8D8 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		943C0DEC5BD602C4EFBABFE2AB5A6B7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A32A821D1C6D1CF7A8F137A00A8777 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
 		9DFDADB757F5571EBEF6719341E39867 /* Pods-MCMessagePopUp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MCMessagePopUp.modulemap"; sourceTree = "<group>"; };
-		A24A698B92DD9D11EC25299006E30328 /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicColor.modulemap; sourceTree = "<group>"; };
-		AB6391FEE8CB8B320661AC2F0000546E /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		AE371584A50B1AF7B7DDD38B138D872C /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		B1CAD052D1B527D2754916D8B3A82969 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		B4278A00FD60C208F5924C9A7D4FCCDC /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB4E7FABCDDA21964A5ED52F94E0FB6E /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicColor.modulemap; sourceTree = "<group>"; };
 		BDADED82E6618A9BADEABCC7BC8AFB89 /* Pods-MCMessagePopUp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCMessagePopUp-frameworks.sh"; sourceTree = "<group>"; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C80853BA9E9ACCA9F7A6681A119DEAB3 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		C8F9600FAC0F94D153595ED6D65CA49C /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		D0BBDF27F363A91FF9EBDDC1B728772C /* Pods-MCMessagePopUp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCMessagePopUp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4CBAFE594B16D46EEECB4426313844C /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		E4351503815D765E6CE9F8788FB24473 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		E662068BC748AFDAC222FF61EAB9DB64 /* Pods_MCMessagePopUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCMessagePopUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E952C73699BBEA253EC4F65FBFA23713 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = DynamicColor/UIColor.swift; sourceTree = "<group>"; };
-		F8BBD257C89B46329220B7D18179C515 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
-		FABE3C7969DCB93F86CFF2569440947E /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		D65FF392D15030E6E7C3043B72F01EB2 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		E5E071F3108D0A9DBA1846F9B8998E23 /* DynamicColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicColor.xcconfig; sourceTree = "<group>"; };
+		F125307AE5853DD958CEA0938F6C9606 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		F1C9FA464F21D7B3B00655825E342C32 /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
+		F6314EFD865C7ADB7E9DBDA52B6936D5 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		F735E08EE6EA068B2447C2AFC1F0D29C /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACA2559A2C14AF6528370C6F6FA615F /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
 		FD003BC51A670B89516670A0C082923B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,25 +126,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4683139840F71DE4384D3E6F79744CFB /* Frameworks */ = {
+		2625DDDFD4B1A62FA9E5A6FCAAAEDAA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7381391EB031BA2F8E8175082C543DD /* Foundation.framework in Frameworks */,
+				815F5A62725BB6E2B149E3DFE7B7BE58 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F08489FCDB0A0D6DB17BE35EF023E9ED /* Frameworks */ = {
+		4BA155DC3466C96A26E2FED0479F99BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FBB418A25947CEC02EB4D2AAADCF62 /* Foundation.framework in Frameworks */,
+				B768EAA4F040B54F0CC187469BE9DEC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730497CEE9BFF6A42F255C91554D07B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9DDF3B10D7C1E8A07B200D55118C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0084C618E14E45993B13599505902FE0 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				C80853BA9E9ACCA9F7A6681A119DEAB3 /* Constraint.swift */,
+				606BAE9A90ED38163AB7BA503448022C /* ConstraintAttributes.swift */,
+				F125307AE5853DD958CEA0938F6C9606 /* ConstraintDescription.swift */,
+				C8F9600FAC0F94D153595ED6D65CA49C /* ConstraintItem.swift */,
+				5BE2AA9B46205ECD9DAAE2DACE643843 /* ConstraintMaker.swift */,
+				D65FF392D15030E6E7C3043B72F01EB2 /* ConstraintRelation.swift */,
+				37516BFAB39FBC44FA80690207BC9C38 /* Debugging.swift */,
+				99A32A821D1C6D1CF7A8F137A00A8777 /* EdgeInsets.swift */,
+				422ACD13380D25196BBC286AE73890ED /* LayoutConstraint.swift */,
+				FACA2559A2C14AF6528370C6F6FA615F /* SnapKit.swift */,
+				8E7C34F363A5DEB43400EFD14B71D8D8 /* View+SnapKit.swift */,
+				4F0F2253090161C27187A9E9FEA34DE5 /* ViewController+SnapKit.swift */,
+				E78AC52247D758D46958852F5E87B76D /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
 		0FB5B94B25835268E833E4DAC78B9BFE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,36 +190,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		32E811255FB0277A16DEA8CABA385438 /* SnapKit */ = {
-			isa = PBXGroup;
-			children = (
-				3D9DB9665F5549D1B7CAF1C9D7B1818A /* Constraint.swift */,
-				E4351503815D765E6CE9F8788FB24473 /* ConstraintAttributes.swift */,
-				628F92BC513590AFDBE1329183818F0A /* ConstraintDescription.swift */,
-				6345D5D380A95811C56A8C9432A8BA60 /* ConstraintItem.swift */,
-				AE371584A50B1AF7B7DDD38B138D872C /* ConstraintMaker.swift */,
-				D4CBAFE594B16D46EEECB4426313844C /* ConstraintRelation.swift */,
-				54DCE6596F76764BD58A7A183BAA0B71 /* Debugging.swift */,
-				448ACDA8027E20372BF0B39F4585897C /* EdgeInsets.swift */,
-				AB6391FEE8CB8B320661AC2F0000546E /* LayoutConstraint.swift */,
-				FABE3C7969DCB93F86CFF2569440947E /* SnapKit.swift */,
-				F8BBD257C89B46329220B7D18179C515 /* View+SnapKit.swift */,
-				94AEC7245372E5830A34B0257C6D8A6B /* ViewController+SnapKit.swift */,
-				CD9DE1B6DB9726FEC9B1C688471E3D54 /* Support Files */,
-			);
-			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		41A17B5D536095429D7C37E323D8CAC8 /* DynamicColor */ = {
-			isa = PBXGroup;
-			children = (
-				3204D4260023FF79E25F3F36A66DA16A /* HSL.swift */,
-				E952C73699BBEA253EC4F65FBFA23713 /* UIColor.swift */,
-				B034F2E9A8F84AC9093DF2B743E6CA0E /* Support Files */,
-			);
-			path = DynamicColor;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,60 +198,86 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5DA40C5FA1073376D13BE5BC51FBCD5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DC6D6C594E8A17FAE1CEAE15D58252 /* DynamicColor */,
+				FE52FB178BC817ED67E6542D8A7B7A94 /* HexColors */,
+				0084C618E14E45993B13599505902FE0 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				823989E1C541DCB1742AAC55FBC14BF5 /* Pods */,
-				E224C787DE0CF2836061BFB903754657 /* Products */,
+				5DA40C5FA1073376D13BE5BC51FBCD5B /* Pods */,
+				EE20C5C7BF8B17BCBF179A1440D4431B /* Products */,
 				0FB5B94B25835268E833E4DAC78B9BFE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		823989E1C541DCB1742AAC55FBC14BF5 /* Pods */ = {
+		8ADC41C2F42A6293483A8CFC34C680FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41A17B5D536095429D7C37E323D8CAC8 /* DynamicColor */,
-				32E811255FB0277A16DEA8CABA385438 /* SnapKit */,
+				599A96947EC6A91D01E0BA75BAC8A7D2 /* HexColors.modulemap */,
+				885D018A40A6AE53978EEA6387CC9964 /* HexColors.xcconfig */,
+				F6314EFD865C7ADB7E9DBDA52B6936D5 /* HexColors-dummy.m */,
+				7D5BF87BEBFD936AD19FCBD6D84787FF /* HexColors-prefix.pch */,
+				39BBA728EE7C71E90F4231374078EC1E /* HexColors-umbrella.h */,
+				943C0DEC5BD602C4EFBABFE2AB5A6B7F /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
 			sourceTree = "<group>";
 		};
-		B034F2E9A8F84AC9093DF2B743E6CA0E /* Support Files */ = {
+		C9DC6D6C594E8A17FAE1CEAE15D58252 /* DynamicColor */ = {
 			isa = PBXGroup;
 			children = (
-				A24A698B92DD9D11EC25299006E30328 /* DynamicColor.modulemap */,
-				50AEF08FDC90CADEAC80ABCF786FCFF9 /* DynamicColor.xcconfig */,
-				03C81D2793E90CA9BD703B9904D1AE7E /* DynamicColor-dummy.m */,
-				076BA00FB387B76830BC0D2A987E12E2 /* DynamicColor-prefix.pch */,
-				1A7AB1163B4D4A15C1C44D6C6B3113B8 /* DynamicColor-umbrella.h */,
-				902BC82E62AD7053B86D975938101C0B /* Info.plist */,
+				0E1B34F489C7E9F9666EE0D7EB2A3BB7 /* HSL.swift */,
+				7D6F1E383768910818B2246BFC1FC9F8 /* UIColor.swift */,
+				DA3297347927AD0C9FCD62AB9F0504E9 /* Support Files */,
+			);
+			path = DynamicColor;
+			sourceTree = "<group>";
+		};
+		DA3297347927AD0C9FCD62AB9F0504E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB4E7FABCDDA21964A5ED52F94E0FB6E /* DynamicColor.modulemap */,
+				E5E071F3108D0A9DBA1846F9B8998E23 /* DynamicColor.xcconfig */,
+				F1C9FA464F21D7B3B00655825E342C32 /* DynamicColor-dummy.m */,
+				378AF90F2320F6BE838E932F332B7163 /* DynamicColor-prefix.pch */,
+				0227C436CF546C3EEACAEDA2CEA879C3 /* DynamicColor-umbrella.h */,
+				538A6CEBC683C3EF4A08F785E07756ED /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DynamicColor";
 			sourceTree = "<group>";
 		};
-		CD9DE1B6DB9726FEC9B1C688471E3D54 /* Support Files */ = {
+		E78AC52247D758D46958852F5E87B76D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6715253815A182EA12E6939CA8EF4359 /* Info.plist */,
-				8B64649D13C833E77887A36E27DA3634 /* SnapKit.modulemap */,
-				1E84FF0CF8C0622CCE0AF17F7AAFEC07 /* SnapKit.xcconfig */,
-				B1CAD052D1B527D2754916D8B3A82969 /* SnapKit-dummy.m */,
-				5B8DB81A7E76BD00732F485308E78D53 /* SnapKit-prefix.pch */,
-				245FD1426035057F7F0379B6B6BADDF8 /* SnapKit-umbrella.h */,
+				0748C77911DCD6F6B0070363E3A584C3 /* Info.plist */,
+				82EC5EA6F7F653BCA7FC9800DA238A27 /* SnapKit.modulemap */,
+				2F9DB7408EF506609D881DF5033158FF /* SnapKit.xcconfig */,
+				7446B729D038A9198C97CAD7C2DDDD0C /* SnapKit-dummy.m */,
+				45AFB0589F92BF57006D5294E26AAF79 /* SnapKit-prefix.pch */,
+				557E7CE872350CF45303D99C1283E6AC /* SnapKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
-		E224C787DE0CF2836061BFB903754657 /* Products */ = {
+		EE20C5C7BF8B17BCBF179A1440D4431B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52B42E5A87EEEA29195B069618A99FD6 /* DynamicColor.framework */,
-				E662068BC748AFDAC222FF61EAB9DB64 /* Pods_MCMessagePopUp.framework */,
-				58EAA9A9ED72DB77D7B1F02CD68E96A7 /* SnapKit.framework */,
+				B4278A00FD60C208F5924C9A7D4FCCDC /* DynamicColor.framework */,
+				8743E541C63D86F301BF26F1C92F7D9F /* HexColors.framework */,
+				4253E02AA932F74A59CE817B0A31C2B0 /* Pods_MCMessagePopUp.framework */,
+				F735E08EE6EA068B2447C2AFC1F0D29C /* SnapKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,22 +300,24 @@
 			path = "Target Support Files/Pods-MCMessagePopUp";
 			sourceTree = "<group>";
 		};
+		FE52FB178BC817ED67E6542D8A7B7A94 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				4C58017B683C79C3009C3B70F120F3E1 /* HexColors.h */,
+				6F9AFC861DAF5EF8A090C250AC095BDC /* HexColors.m */,
+				8ADC41C2F42A6293483A8CFC34C680FB /* Support Files */,
+			);
+			path = HexColors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7EC747C56EBFA04F5013C59A948F8494 /* Headers */ = {
+		70D7E624877CC7A554A8FB99B684D787 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C594417C8523468EA43A2270C6E1688 /* SnapKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		900036CFC80E4D57F3CBAFCE0625312F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				496F0C2B0950F767E96CB7D98689E6A8 /* Pods-MCMessagePopUp-umbrella.h in Headers */,
+				0D6A0F7B4EFB1DB75137FD592B3481A9 /* Pods-MCMessagePopUp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +326,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E938F95DB58AF7A4E933D7BD645F0B /* DynamicColor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17BEB90EB4C27B46F1BB2CD8FF0C542 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E92AEC9F093E10C69F2B89A14F49F5 /* HexColors-umbrella.h in Headers */,
+				596758BBEC68789E6C8928ECE3FC341C /* HexColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B79A882CE29D13A72C1EB059284972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D10D13D233DE2175C4E430879A62F /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,16 +363,36 @@
 			);
 			name = DynamicColor;
 			productName = DynamicColor;
-			productReference = 52B42E5A87EEEA29195B069618A99FD6 /* DynamicColor.framework */;
+			productReference = B4278A00FD60C208F5924C9A7D4FCCDC /* DynamicColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1860587A4358341387B93E4C61C04485 /* SnapKit */ = {
+		6CA5D1525BEB3CC925150808CBAD56B5 /* Pods-MCMessagePopUp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 119AA0CCA29FB09C9071CF5CA5F02380 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = F7BD8153D3F8E077787B6A3C5A5848CD /* Build configuration list for PBXNativeTarget "Pods-MCMessagePopUp" */;
 			buildPhases = (
-				4534A9F1FB88191E5F30A6A9253C6F5F /* Sources */,
-				4683139840F71DE4384D3E6F79744CFB /* Frameworks */,
-				7EC747C56EBFA04F5013C59A948F8494 /* Headers */,
+				9568219E3725DF2D985310371591815C /* Sources */,
+				730497CEE9BFF6A42F255C91554D07B9 /* Frameworks */,
+				70D7E624877CC7A554A8FB99B684D787 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8517C7C0B8CCF706963B93A836E8C99B /* PBXTargetDependency */,
+				293E4C1B35E04D93CF557FA7E6E8542B /* PBXTargetDependency */,
+				5205F64AFF3BFB52CEDAA4BB772A9E0D /* PBXTargetDependency */,
+			);
+			name = "Pods-MCMessagePopUp";
+			productName = "Pods-MCMessagePopUp";
+			productReference = 4253E02AA932F74A59CE817B0A31C2B0 /* Pods_MCMessagePopUp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78B4A90D384F1641F2F79511C3D6FB2E /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A588408631A36ED4F0C9DAF0FD913BC3 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				B03E9CAE3F4972BBECEDAC9B0E6E193B /* Sources */,
+				2625DDDFD4B1A62FA9E5A6FCAAAEDAA1 /* Frameworks */,
+				F2B79A882CE29D13A72C1EB059284972 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -316,26 +400,24 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 58EAA9A9ED72DB77D7B1F02CD68E96A7 /* SnapKit.framework */;
+			productReference = F735E08EE6EA068B2447C2AFC1F0D29C /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3EDCFC2BF2FBE305FF0CB2C8BD7B1167 /* Pods-MCMessagePopUp */ = {
+		C408D4E183A88B763793C217A66A1950 /* HexColors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2DA0BEB7E4420C0F9B782B204E29CA9 /* Build configuration list for PBXNativeTarget "Pods-MCMessagePopUp" */;
+			buildConfigurationList = 120D0B17EB9DEF64F2E1BC979F24A556 /* Build configuration list for PBXNativeTarget "HexColors" */;
 			buildPhases = (
-				71DA394E67B50D896F4E241F18897F03 /* Sources */,
-				F08489FCDB0A0D6DB17BE35EF023E9ED /* Frameworks */,
-				900036CFC80E4D57F3CBAFCE0625312F /* Headers */,
+				67EF9044B76E629170DD09EE2E94E76D /* Sources */,
+				4BA155DC3466C96A26E2FED0479F99BA /* Frameworks */,
+				D17BEB90EB4C27B46F1BB2CD8FF0C542 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBC0F6D3E1DA36880DFA7AF6CF1144D9 /* PBXTargetDependency */,
-				6C82E881D5D818A5FF9DA17DC0C9CC79 /* PBXTargetDependency */,
 			);
-			name = "Pods-MCMessagePopUp";
-			productName = "Pods-MCMessagePopUp";
-			productReference = E662068BC748AFDAC222FF61EAB9DB64 /* Pods_MCMessagePopUp.framework */;
+			name = HexColors;
+			productName = HexColors;
+			productReference = 8743E541C63D86F301BF26F1C92F7D9F /* HexColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -355,43 +437,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E224C787DE0CF2836061BFB903754657 /* Products */;
+			productRefGroup = EE20C5C7BF8B17BCBF179A1440D4431B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				08F6A5AF8E89681F880EB03F167AACB7 /* DynamicColor */,
-				3EDCFC2BF2FBE305FF0CB2C8BD7B1167 /* Pods-MCMessagePopUp */,
-				1860587A4358341387B93E4C61C04485 /* SnapKit */,
+				C408D4E183A88B763793C217A66A1950 /* HexColors */,
+				6CA5D1525BEB3CC925150808CBAD56B5 /* Pods-MCMessagePopUp */,
+				78B4A90D384F1641F2F79511C3D6FB2E /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4534A9F1FB88191E5F30A6A9253C6F5F /* Sources */ = {
+		67EF9044B76E629170DD09EE2E94E76D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647655495A5F64D5F8802EF03CF1E678 /* Constraint.swift in Sources */,
-				CA1AC48020794CCAA75677B4209F327B /* ConstraintAttributes.swift in Sources */,
-				B2BD8E35A1982EE1C846B0A90082CF72 /* ConstraintDescription.swift in Sources */,
-				106A4B5EFC14C0A6D3B71D06437B9C87 /* ConstraintItem.swift in Sources */,
-				4A9D3E2EF689A360AFDCB130CA53159B /* ConstraintMaker.swift in Sources */,
-				465DA8AF88F9376CAED22BA39CBCD8B0 /* ConstraintRelation.swift in Sources */,
-				6189C27B56D45BAF2ACC39CCBA476195 /* Debugging.swift in Sources */,
-				795F91F24DF89BD37FA779B24F8DC88C /* EdgeInsets.swift in Sources */,
-				B2ABE8771072ED2C30528F0382647083 /* LayoutConstraint.swift in Sources */,
-				9499CEC0AA65D672E6ECC317935159DD /* SnapKit-dummy.m in Sources */,
-				D637A31F3D91EBA42F7FADF1AC2B6957 /* SnapKit.swift in Sources */,
-				E51758E536381220E74CB351BEE1EF3D /* View+SnapKit.swift in Sources */,
-				02141765CCA3861A8BFDE6B4F884FF36 /* ViewController+SnapKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71DA394E67B50D896F4E241F18897F03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9728871818A3FD623DAE23E0801BF320 /* Pods-MCMessagePopUp-dummy.m in Sources */,
+				8DCF5C0EE6AC7543935C51AA756864C0 /* HexColors-dummy.m in Sources */,
+				4E5B4EEA50BEF0B4D0FE2394D3EB119A /* HexColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,27 +469,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9568219E3725DF2D985310371591815C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07715155B3856E32C0AEB8AF07ACB4AE /* Pods-MCMessagePopUp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03E9CAE3F4972BBECEDAC9B0E6E193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACA2ABB3C986327E5B1C8D80AC759CC /* Constraint.swift in Sources */,
+				C1640F8C06B9993DF58B8717B586187F /* ConstraintAttributes.swift in Sources */,
+				8D0209F5996EED9AC01DA9127268A808 /* ConstraintDescription.swift in Sources */,
+				60495B11A11CD5704FEFFD64A69B33EA /* ConstraintItem.swift in Sources */,
+				C005921D91F14F219C962A3AEE9173D5 /* ConstraintMaker.swift in Sources */,
+				64D962B0FA2B1673B1C4630696E97926 /* ConstraintRelation.swift in Sources */,
+				85A810AA372BF651C512F9D8FF3355BD /* Debugging.swift in Sources */,
+				D3D2DC6F314DF04FAFD32B82B0271BF8 /* EdgeInsets.swift in Sources */,
+				9B21AC4FDA2748EF3349AF240FBC352C /* LayoutConstraint.swift in Sources */,
+				094E8C800ADB51CCDAB2CBA9D2A879F5 /* SnapKit-dummy.m in Sources */,
+				E72AB1760239EAD4ADA3809ADEF32156 /* SnapKit.swift in Sources */,
+				8A47226B07A8F55B19D045DB0361A04E /* View+SnapKit.swift in Sources */,
+				D650067217B72371FC8693BE21C5786B /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C82E881D5D818A5FF9DA17DC0C9CC79 /* PBXTargetDependency */ = {
+		293E4C1B35E04D93CF557FA7E6E8542B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = C408D4E183A88B763793C217A66A1950 /* HexColors */;
+			targetProxy = CA0FD6649EB6A4A5C653B85D1E9AF7ED /* PBXContainerItemProxy */;
+		};
+		5205F64AFF3BFB52CEDAA4BB772A9E0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			target = 1860587A4358341387B93E4C61C04485 /* SnapKit */;
-			targetProxy = A24BE25E69AB7FAEAEC408656F5FEFD9 /* PBXContainerItemProxy */;
+			target = 78B4A90D384F1641F2F79511C3D6FB2E /* SnapKit */;
+			targetProxy = 5394453D3F051FB29E7FD9B3CEFAC303 /* PBXContainerItemProxy */;
 		};
-		CBC0F6D3E1DA36880DFA7AF6CF1144D9 /* PBXTargetDependency */ = {
+		8517C7C0B8CCF706963B93A836E8C99B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DynamicColor;
 			target = 08F6A5AF8E89681F880EB03F167AACB7 /* DynamicColor */;
-			targetProxy = B4D781B917C36B3F8CC8CA2F01243D7D /* PBXContainerItemProxy */;
+			targetProxy = B7CD442FF4EA8F15A3A4D1D4A2574F45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18ECB8908F261CF2874E425E725E403C /* Release */ = {
+		1721A073E7763C1231F99B7B183E3471 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E84FF0CF8C0622CCE0AF17F7AAFEC07 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 885D018A40A6AE53978EEA6387CC9964 /* HexColors.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -434,14 +532,41 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CE686FF7383A8EE787CEB6EC93A8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885D018A40A6AE53978EEA6387CC9964 /* HexColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SnapKit;
+				PRODUCT_NAME = HexColors;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,7 +614,34 @@
 			};
 			name = Debug;
 		};
-		6F16556A96BCC3470E188FA696ACD88F /* Debug */ = {
+		66DB26DEE1CC1E40FDC1994380095383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9DB7408EF506609D881DF5033158FF /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		676C79CCAA52ABBF50DD310761F0B880 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87B004E72B7CD5AF954ADD42F8FEC462 /* Pods-MCMessagePopUp.debug.xcconfig */;
 			buildSettings = {
@@ -556,7 +708,7 @@
 		};
 		89CE7CD7486FD51184102D1B63290300 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AEF08FDC90CADEAC80ABCF786FCFF9 /* DynamicColor.xcconfig */;
+			baseConfigurationReference = E5E071F3108D0A9DBA1846F9B8998E23 /* DynamicColor.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -582,62 +734,7 @@
 			};
 			name = Debug;
 		};
-		A0FF20E247DC0A7E54362B2F47A77CD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AEF08FDC90CADEAC80ABCF786FCFF9 /* DynamicColor.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DynamicColor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D04488F842F80F067BF8ECC6667BF394 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E84FF0CF8C0622CCE0AF17F7AAFEC07 /* SnapKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FA494C267CEE4DCB3961759661C89DE5 /* Release */ = {
+		9B5AD8E5A6AD8B829DAED91E17BB2702 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FB69152D0FC7642302A4F4C0B16BF7C /* Pods-MCMessagePopUp.release.xcconfig */;
 			buildSettings = {
@@ -667,14 +764,69 @@
 			};
 			name = Release;
 		};
+		A0FF20E247DC0A7E54362B2F47A77CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E071F3108D0A9DBA1846F9B8998E23 /* DynamicColor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3E4109B1BFC7ED7C70B31E030AF1367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9DB7408EF506609D881DF5033158FF /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		119AA0CCA29FB09C9071CF5CA5F02380 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		120D0B17EB9DEF64F2E1BC979F24A556 /* Build configuration list for PBXNativeTarget "HexColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D04488F842F80F067BF8ECC6667BF394 /* Debug */,
-				18ECB8908F261CF2874E425E725E403C /* Release */,
+				1721A073E7763C1231F99B7B183E3471 /* Debug */,
+				2CE686FF7383A8EE787CEB6EC93A8573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -688,11 +840,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2DA0BEB7E4420C0F9B782B204E29CA9 /* Build configuration list for PBXNativeTarget "Pods-MCMessagePopUp" */ = {
+		A588408631A36ED4F0C9DAF0FD913BC3 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F16556A96BCC3470E188FA696ACD88F /* Debug */,
-				FA494C267CEE4DCB3961759661C89DE5 /* Release */,
+				F3E4109B1BFC7ED7C70B31E030AF1367 /* Debug */,
+				66DB26DEE1CC1E40FDC1994380095383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BD8153D3F8E077787B6A3C5A5848CD /* Build configuration list for PBXNativeTarget "Pods-MCMessagePopUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C79CCAA52ABBF50DD310761F0B880 /* Debug */,
+				9B5AD8E5A6AD8B829DAED91E17BB2702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

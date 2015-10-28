@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HexColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MCMessagePopUp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1860587A4358341387B93E4C61C04485</key>
+		<key>6CA5D1525BEB3CC925150808CBAD56B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3EDCFC2BF2FBE305FF0CB2C8BD7B1167</key>
+		<key>78B4A90D384F1641F2F79511C3D6FB2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C408D4E183A88B763793C217A66A1950</key>
 		<dict>
 			<key>primary</key>
 			<true/>

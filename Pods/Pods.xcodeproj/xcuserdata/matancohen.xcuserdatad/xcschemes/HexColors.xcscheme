@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E19E35699820BBD92ABAA82B'
-               BlueprintName = 'SnapKit'
+               BlueprintIdentifier = '05BCA40B6357A4CE3E377F5C'
+               BlueprintName = 'HexColors'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SnapKit.framework'>
+               BuildableName = 'HexColors.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

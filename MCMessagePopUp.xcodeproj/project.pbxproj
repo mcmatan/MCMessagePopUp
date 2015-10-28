@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A7627181BE0E30500A30D2D /* TextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7627171BE0E30500A30D2D /* TextHelper.m */; };
+		8A76271A1BE0E34C00A30D2D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7627191BE0E34C00A30D2D /* Colors.swift */; };
+		8A76271D1BE0E55300A30D2D /* Stokeet.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A76271C1BE0E55300A30D2D /* Stokeet.ttf */; };
 		8A9BEFFB1BCFED2D00B5DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BEFFA1BCFED2D00B5DE9C /* AppDelegate.swift */; };
 		8A9BEFFD1BCFED2D00B5DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BEFFC1BCFED2D00B5DE9C /* ViewController.swift */; };
 		8A9BF0001BCFED2D00B5DE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BEFFE1BCFED2D00B5DE9C /* Main.storyboard */; };
@@ -14,9 +17,9 @@
 		8A9BF0051BCFED2D00B5DE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BF0031BCFED2D00B5DE9C /* LaunchScreen.storyboard */; };
 		8A9BF0101BCFED2D00B5DE9C /* MCMessagePopUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF00F1BCFED2D00B5DE9C /* MCMessagePopUpTests.swift */; };
 		8A9BF01B1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF01A1BCFED2D00B5DE9C /* MCMessagePopUpUITests.swift */; };
-		8A9BF02A1BCFED5E00B5DE9C /* MCMessagePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF0291BCFED5E00B5DE9C /* MCMessagePopUp.swift */; settings = {ASSET_TAGS = (); }; };
-		8A9BF02C1BCFEECD00B5DE9C /* MCMessagePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF02B1BCFEECD00B5DE9C /* MCMessagePopUpView.swift */; settings = {ASSET_TAGS = (); }; };
-		8A9BF02F1BD38AF400B5DE9C /* sea-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BF02E1BD38AF400B5DE9C /* sea-7.jpg */; settings = {ASSET_TAGS = (); }; };
+		8A9BF02A1BCFED5E00B5DE9C /* MCMessagePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF0291BCFED5E00B5DE9C /* MCMessagePopUp.swift */; };
+		8A9BF02C1BCFEECD00B5DE9C /* MCMessagePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BF02B1BCFEECD00B5DE9C /* MCMessagePopUpView.swift */; };
+		8A9BF02F1BD38AF400B5DE9C /* sea-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BF02E1BD38AF400B5DE9C /* sea-7.jpg */; };
 		FC66B40DE2AF6FB25DBA7C66 /* Pods_MCMessagePopUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E205DA00E56D1175F6F6D1 /* Pods_MCMessagePopUp.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A7627151BE0E30400A30D2D /* MCMessagePopUp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCMessagePopUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A7627161BE0E30500A30D2D /* TextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextHelper.h; sourceTree = "<group>"; };
+		8A7627171BE0E30500A30D2D /* TextHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextHelper.m; sourceTree = "<group>"; };
+		8A7627191BE0E34C00A30D2D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8A76271C1BE0E55300A30D2D /* Stokeet.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stokeet.ttf; sourceTree = "<group>"; };
 		8A9BEFF71BCFED2D00B5DE9C /* MCMessagePopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMessagePopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9BEFFA1BCFED2D00B5DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9BEFFC1BCFED2D00B5DE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,15 +102,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8A7627141BE0E2EE00A30D2D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A7627161BE0E30500A30D2D /* TextHelper.h */,
+				8A7627171BE0E30500A30D2D /* TextHelper.m */,
+				8A7627191BE0E34C00A30D2D /* Colors.swift */,
+				8A7627151BE0E30400A30D2D /* MCMessagePopUp-Bridging-Header.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8A76271B1BE0E4F600A30D2D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A76271C1BE0E55300A30D2D /* Stokeet.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		8A9BEFEE1BCFED2D00B5DE9C = {
 			isa = PBXGroup;
 			children = (
+				8A7627141BE0E2EE00A30D2D /* Utilities */,
 				8A9BF02D1BD38AE800B5DE9C /* Images */,
 				8A9BEFF91BCFED2D00B5DE9C /* MCMessagePopUp */,
 				8A9BF00E1BCFED2D00B5DE9C /* MCMessagePopUpTests */,
 				8A9BF0191BCFED2D00B5DE9C /* MCMessagePopUpUITests */,
 				8A9BEFF81BCFED2D00B5DE9C /* Products */,
 				6365AD202F0BD9B087B6473E /* Pods */,
+				8A76271B1BE0E4F600A30D2D /* Fonts */,
 				96C3DB902512D2A3129F4F9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -239,6 +268,7 @@
 		8A9BEFEF1BCFED2D00B5DE9C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Matan Cohen";
 				TargetAttributes = {
@@ -281,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9BF0051BCFED2D00B5DE9C /* LaunchScreen.storyboard in Resources */,
+				8A76271D1BE0E55300A30D2D /* Stokeet.ttf in Resources */,
 				8A9BF02F1BD38AF400B5DE9C /* sea-7.jpg in Resources */,
 				8A9BF0021BCFED2D00B5DE9C /* Assets.xcassets in Resources */,
 				8A9BF0001BCFED2D00B5DE9C /* Main.storyboard in Resources */,
@@ -357,9 +388,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9BF02A1BCFED5E00B5DE9C /* MCMessagePopUp.swift in Sources */,
+				8A76271A1BE0E34C00A30D2D /* Colors.swift in Sources */,
 				8A9BEFFD1BCFED2D00B5DE9C /* ViewController.swift in Sources */,
 				8A9BEFFB1BCFED2D00B5DE9C /* AppDelegate.swift in Sources */,
 				8A9BF02C1BCFEECD00B5DE9C /* MCMessagePopUpView.swift in Sources */,
+				8A7627181BE0E30500A30D2D /* TextHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,10 +533,13 @@
 			baseConfigurationReference = F8842506C6629211CF9F7515 /* Pods-MCMessagePopUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MCMessagePopUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MCMessagePopUp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -512,10 +548,12 @@
 			baseConfigurationReference = CB1F5999F25CBB50CC614C81 /* Pods-MCMessagePopUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MCMessagePopUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MACMatan.MCMessagePopUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MCMessagePopUp-Bridging-Header.h";
 			};
 			name = Release;
 		};

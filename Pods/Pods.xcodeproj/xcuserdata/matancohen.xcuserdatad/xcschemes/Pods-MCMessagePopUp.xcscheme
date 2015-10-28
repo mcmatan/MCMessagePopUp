@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5F807816CEC9AC1925D9F84D'
+               BlueprintIdentifier = '7099D67544D9BC9F44DBBCFB'
                BlueprintName = 'Pods-MCMessagePopUp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_MCMessagePopUp.framework'>

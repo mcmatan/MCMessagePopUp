@@ -3,50 +3,52 @@
 import Foundation
 import UIKit
 import SnapKit
-import DynamicColor
+import HexColors
 
-enum kMessagePopUpStyle {
-    case Error
-    case Info
-    case Success
+@objc enum kMessagePopUpStyle : Int {
+    case Error,
+    Info,
+    Success
 }
 
 
 class MCMessagePopUpView : UIView {
     var lblTitle = UILabel()
     var lblSubtitle = UILabel()
+    var lblIcon = UILabel()
+    var lblIconFontSize = 22
     var font = UIFont(name: "HelveticaNeue-Light", size: 14)!
     
     //MARK: Public
-    internal func setTitle(text : String) {
-        self.lblTitle.text = text;
-    }
-    internal func setSubtitle(text : String) {
-        self.lblSubtitle.text = text;
-    }
+    
     internal func setTextColor(color : UIColor) {
         self.lblTitle.textColor = color
         self.lblSubtitle.textColor = color
+        self.layoutIfNeeded()
     }
     internal func setTextFont(font : UIFont) {
         self.lblTitle.font = font
         self.lblSubtitle.font = font
+        self.layoutIfNeeded()
     }
     
     internal func setStyle(style : kMessagePopUpStyle) {
         switch style {
         case .Error:
             let redColor = UIColor(hexString: "BB354E")
+            self.lblIcon.attributedText = TextHelper.setAttrebutedStringWithIcon(kIconMarketClosed, andIconSize: Int32(lblIconFontSize), andTextString: "", andTextFont: "", andColor: redColor, onSide: "")
             self.setTextColor(redColor)
-                break;
+            break;
         case .Success:
             let greenColor = UIColor(hexString: "77AD15")
+            self.lblIcon.attributedText = TextHelper.setAttrebutedStringWithIcon(kIconOk, andIconSize: Int32(lblIconFontSize), andTextString: "", andTextFont: "", andColor: greenColor, onSide: "")
             self.setTextColor(greenColor)
-                break
+            break
         case .Info:
             let orangeColor = UIColor(hexString: "C87937")
+            self.lblIcon.attributedText = TextHelper.setAttrebutedStringWithIcon(kIconWarning, andIconSize: Int32(lblIconFontSize), andTextString: "", andTextFont: "", andColor: orangeColor, onSide: "")
             self.setTextColor(orangeColor)
-                break
+            break
             
         }
     }
@@ -65,7 +67,14 @@ class MCMessagePopUpView : UIView {
     
     init() {
         super.init(frame: CGRectZero)
-        self.commonInit()        
+        self.commonInit()
+    }
+    
+    init(title : String, subtitle : String) {
+        self.lblTitle.text = title
+        self.lblSubtitle.text = subtitle
+        super.init(frame: CGRectMake(0, 0, 100, 100))
+        self.commonInit()
     }
     
     //MARK: setup
@@ -76,6 +85,14 @@ class MCMessagePopUpView : UIView {
         self.lblTitle.font = font
         self.tintColor = UIColor.clearColor()
         self.lblSubtitle.numberOfLines = 0
+        self.lblTitle.numberOfLines = 0
+        
+        self.lblSubtitle.setContentCompressionResistancePriority(UILayoutPriorityRequired, forAxis: UILayoutConstraintAxis.Vertical)
+        self.lblSubtitle.setContentHuggingPriority(UILayoutPriorityRequired, forAxis: UILayoutConstraintAxis.Horizontal)
+        
+        self.lblTitle.setContentCompressionResistancePriority(UILayoutPriorityRequired, forAxis: UILayoutConstraintAxis.Vertical)
+        self.lblTitle.setContentHuggingPriority(UILayoutPriorityRequired, forAxis: UILayoutConstraintAxis.Horizontal)
+        
         
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.ExtraLight)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
@@ -84,6 +101,7 @@ class MCMessagePopUpView : UIView {
         self.addSubview(blurEffectView)
         self.addSubview(self.lblTitle)
         self.addSubview(self.lblSubtitle)
+        self.addSubview(self.lblIcon)
         
         blurEffectView.userInteractionEnabled = true
         lblTitle.userInteractionEnabled = true
@@ -93,18 +111,46 @@ class MCMessagePopUpView : UIView {
             make.edges.equalTo(self)
         }
         
-        self.lblTitle.snp_makeConstraints {[weak self] (make) -> Void in
-            make.top.equalTo((self?.snp_top)!).offset(15)
-            make.left.equalTo((self?.snp_left)!).offset(UIScreen.mainScreen().bounds.width * 0.25)
-            make.right.equalTo((self?.snp_right)!).offset(-20)
+        self.lblIcon.snp_makeConstraints {[weak self] (make) -> Void in
+            make.left.equalTo((self?.snp_left)!).offset(10)
+            make.top.equalTo((self?.snp_top)!).offset(10)
+            make.width.equalTo(30)
+            make.height.equalTo(30)
         }
-        self.lblSubtitle.snp_makeConstraints {[weak self] (make) -> Void in
-            make.top.equalTo((self?.lblTitle.snp_bottom)!).offset(10)
-            make.left.equalTo((self?.lblTitle.snp_left)!)
-            make.right.equalTo((self?.snp_right)!).offset(-20)
-            make.bottom.equalTo((self?.snp_bottom)!).offset(-15)
+        
+        if self.lblTitle.text?.isEmpty == false && self.lblSubtitle.text?.isEmpty == false {
+            self.lblTitle.snp_makeConstraints {[weak self] (make) -> Void in
+                make.top.equalTo((self?.snp_top)!).offset(15)
+                make.left.equalTo((self?.lblIcon.snp_right)!).offset(6)
+                make.right.equalTo((self?.snp_right)!).offset(-20)
+            }
+            self.lblSubtitle.snp_makeConstraints {[weak self] (make) -> Void in
+                make.top.equalTo((self?.lblTitle.snp_bottom)!).offset(10)
+                make.left.equalTo((self?.lblTitle.snp_left)!)
+                make.right.equalTo((self?.snp_right)!).offset(-20)
+                make.bottom.equalTo((self?.snp_bottom)!).offset(-10)
+            }
+        } else {
+            
+            if self.lblTitle.text?.isEmpty == false {
+                self.lblTitle.snp_makeConstraints {[weak self] (make) -> Void in
+                    make.top.equalTo((self?.snp_top)!).offset(15)
+                    make.left.equalTo((self?.lblIcon.snp_right)!).offset(6)
+                    make.right.equalTo((self?.snp_right)!).offset(-20)
+                    make.bottom.equalTo((self?.snp_bottom)!).offset(-10)
+                }
+            } else {
+                self.lblSubtitle.snp_makeConstraints {[weak self] (make) -> Void in
+                    make.top.equalTo((self?.snp_top)!).offset(15)
+                    make.left.equalTo((self?.lblIcon.snp_right)!).offset(6)
+                    make.right.equalTo((self?.snp_right)!).offset(-20)
+                    make.bottom.equalTo((self?.snp_bottom)!).offset(-10)
+                }
+            }
+            
         }
+        
     }
-
-
+    
+    
 }
