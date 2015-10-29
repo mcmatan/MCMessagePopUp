@@ -113,7 +113,7 @@ class MCMessagePopUpView : UIView {
         
         self.lblIcon.snp_makeConstraints {[weak self] (make) -> Void in
             make.left.equalTo((self?.snp_left)!).offset(10)
-            make.top.equalTo((self?.snp_top)!).offset(10)
+            make.centerY.equalTo((self?.snp_centerY)!)
             make.width.equalTo(30)
             make.height.equalTo(30)
         }
@@ -121,13 +121,13 @@ class MCMessagePopUpView : UIView {
         if self.lblTitle.text?.isEmpty == false && self.lblSubtitle.text?.isEmpty == false {
             self.lblTitle.snp_makeConstraints {[weak self] (make) -> Void in
                 make.top.equalTo((self?.snp_top)!).offset(15)
-                make.left.equalTo((self?.lblIcon.snp_right)!).offset(6)
-                make.right.equalTo((self?.snp_right)!).offset(-20)
+                make.left.equalTo((self?.lblIcon.snp_right)!).offset(40)
+                make.right.equalTo((self?.snp_right)!).offset(-30)
             }
             self.lblSubtitle.snp_makeConstraints {[weak self] (make) -> Void in
                 make.top.equalTo((self?.lblTitle.snp_bottom)!).offset(10)
                 make.left.equalTo((self?.lblTitle.snp_left)!)
-                make.right.equalTo((self?.snp_right)!).offset(-20)
+                make.right.equalTo((self?.snp_right)!).offset(-30)
                 make.bottom.equalTo((self?.snp_bottom)!).offset(-10)
             }
         } else {
