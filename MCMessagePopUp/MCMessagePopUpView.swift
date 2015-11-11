@@ -17,6 +17,7 @@ class MCMessagePopUpView : UIView {
     var lblSubtitle = UILabel()
     var lblIcon = UILabel()
     var lblIconFontSize = 22
+    var iconWidthHeightSize = 40
     var font = UIFont(name: "HelveticaNeue-Light", size: 14)!
     
     //MARK: Public
@@ -112,16 +113,16 @@ class MCMessagePopUpView : UIView {
         }
         
         self.lblIcon.snp_makeConstraints {[weak self] (make) -> Void in
-            make.left.equalTo((self?.snp_left)!).offset(10)
+            make.left.equalTo((self?.snp_left)!).offset(((self?.iconWidthHeightSize)!/2))
             make.centerY.equalTo((self?.snp_centerY)!)
-            make.width.equalTo(30)
-            make.height.equalTo(30)
+            make.width.equalTo((self?.iconWidthHeightSize)!)
+            make.height.equalTo((self?.iconWidthHeightSize)!)
         }
         
         if self.lblTitle.text?.isEmpty == false && self.lblSubtitle.text?.isEmpty == false {
             self.lblTitle.snp_makeConstraints {[weak self] (make) -> Void in
                 make.top.equalTo((self?.snp_top)!).offset(15)
-                make.left.equalTo((self?.lblIcon.snp_right)!).offset(40)
+                make.left.equalTo((self?.lblIcon.snp_right)!)
                 make.right.equalTo((self?.snp_right)!).offset(-30)
             }
             self.lblSubtitle.snp_makeConstraints {[weak self] (make) -> Void in
